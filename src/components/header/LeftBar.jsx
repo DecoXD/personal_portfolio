@@ -7,7 +7,7 @@ const LeftBar = () => {
   
 
   return (
-    <section className=" left-bar flex fixed
+    <section className=" lg:hidden hidden   sm:flex fixed
      py-12 flex-col gap-28 min-w-[200px] sm:min-h-screen bg-black text-white">
 
       <div className="px-6">

@@ -9,11 +9,11 @@ function App() {
     <div>
       <Header/>
 
-      <section className="lg:px-8 sm:pl-[250px] px-4 max-w-[1440px] bg-black hero-size ">
+      <section id="home" className="lg:px-8 sm:pl-[250px] px-4 max-w-[1440px] bg-black hero-size flex items-center ">
         <Hero/>
       </section>
 
-      <section className="lg:px-8 sm:pl-[250px] max-sm:pb-[250px] px-4 max-w-[1440px] bg-black hero-size ">
+      <section id="overview" className="lg:px-8 sm:pl-[250px] max-sm:pb-[250px] px-4 max-w-[1440px] bg-black hero-size ">
         <Overview/>
       </section>
 

@@ -17,13 +17,15 @@ const TopBar = () => {
                 {  
                   const itemLabel = item.icon ? item.label : ''
                   return (       
-                      <a key={item.label} href={item.href} className="group font-poppins text-lg transition   cursor-pointer items-center rounded-lg gap-2.5 flex">
+                      <li key={item.label}>
+                        <a  href={item.href} className="group font-poppins text-lg transition hover:brightness-75   cursor-pointer items-center rounded-lg gap-2.5 flex">
                         <img 
                           src={item.icon} 
                           alt={itemLabel} 
-                          className='group-hover:invert group-hover:brightness-0 group-hover:transition' />
+                           />
                           {item.label}
                         </a>
+                      </li>
                 )
                 }
               )}

@@ -1,4 +1,5 @@
-import { home,overview,about,contact } from "../assets/icons";
+import { home,overview,about,contact,easy,itermediate, advanced, epic } from "../assets/icons";
+import { anker,nike } from "../assets/images";
 
 
 
@@ -26,3 +27,23 @@ export const navLinks = [
     icon:contact,
   },
 ]
+
+export const projects = [
+  {
+    name:'Anker Near',
+    href:'https://decoxd.github.io/ankernear/',
+    img:anker,
+    dificulty:'advanced',
+    icon:advanced,
+    tags:["Javascript",'ReactJs','Firebase','SwiperJS']
+
+  },
+  {
+    name:'Nike website',
+    href:'https://nike-front.vercel.app/',
+    img:nike,
+    dificulty:'itermediate',
+    icon:itermediate,
+    tags:["Javascript",'ReactJs','Tailwind',"Shadcn","Zod", ]
+  }
+] 
