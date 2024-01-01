@@ -1,3 +1,4 @@
+import { myImage } from "@/assets/images"
 
 
 
@@ -19,7 +20,7 @@ const Hero = () => {
         <button className="bg-indigo-500 p-4 ">Show CV</button>
       </div>
       <div className="text-white  flex-1 object-contain">
-        <img src={'https://github.com/decoxd.png'} alt="cartoon image" className=" m-auto"  />
+        <img src={myImage} alt="cartoon image" className=" m-auto"  />
       </div>
     </section>
   )
