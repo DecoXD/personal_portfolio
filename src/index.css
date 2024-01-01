@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Poppins:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Poppins:wght@400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  
+.left-bar {
+    @apply lg:hidden max-sm:hidden }
+}
+.invert-white{
+  display: none;
+}
+
+@layer components{
+  .max-container{
+    max-width: 1440px;
+    margin:0 auto
+  }
+
+  .hero-size{
+    @apply min-h-screen lg:min-h-[83vh]
+  }
+}
