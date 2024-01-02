@@ -4,7 +4,7 @@ import { myImage } from "@/assets/images"
 
 const Hero = () => {
   return (
-    <section  className="max-container lg:pt-2   flex lg:flex-row flex-col-reverse gap-4 w-full ">
+    <section id="home" className="max-container lg:pt-2   flex lg:flex-row flex-col-reverse gap-4 w-full ">
 
       <div className="text-white relative  flex flex-col gap-4 items-center  text-center  flex-1">
         

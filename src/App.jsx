@@ -1,24 +1,32 @@
 import Header from "./components/header/Header"
-import { Hero, Overview } from "./sections"
+import { About, Footer, Hero, Overview } from "./sections"
 
 
 function App() {
   
 
   return (
-    <div>
+    <main className="relative">
+
       <Header/>
 
-      <section id="home" className="lg:px-8 sm:pl-[250px] px-4 max-w-[1440px] bg-black hero-size flex items-center ">
+      <section  className=" lg:px-8 sm:pl-[250px] px-4 max-w-[1440px] bg-black hero-size flex items-center ">
         <Hero/>
       </section>
 
-      <section id="overview" className="lg:px-8 sm:pl-[250px] max-sm:pb-[250px] px-4 max-w-[1440px] bg-black hero-size ">
+      <section  className="lg:px-8 sm:pl-[250px]  px-4 max-w-[1440px] bg-black  ">
         <Overview/>
       </section>
 
+      <section  className="lg:px-8 sm:pl-[250px]  px-4 max-w-[1440px] bg-black  ">
+        <About/>
+      </section>
+      <section  className="lg:px-8 sm:pl-[250px] max-sm:pb-[250px] px-4 max-w-[1440px] bg-black  ">
+        <Footer/>
+      </section>
 
-    </div>
+
+    </main>
       
     
      

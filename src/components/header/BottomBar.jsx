@@ -3,7 +3,7 @@ import { navLinks } from "../../constants"
 const BottomBar = () => {
   return (
     <section className=" sm:hidden flex justify-center z-10  fixed bottom-0  w-full
-    p-6 px-8 flex-col bg-black text-white">
+    p-6 px-2 flex-col bg-black text-white">
 
      
 
@@ -19,8 +19,8 @@ const BottomBar = () => {
                      src={item.icon} 
                      alt={itemLabel} 
                      className='group-hover:invert group-hover:brightness-0 group-hover:transition'
-                     width={32}
-                     height={32} />
+                     width={35}
+                     height={35} />
                       
                      
                    </a>

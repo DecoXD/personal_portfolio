@@ -6,8 +6,8 @@ import { projects } from "@/constants"
 
 const Overview = () => {
   return (
-    <section className="max-container text-white py-32  pl-2 md:pl-8 ">
-      <h2 className="text-4xl md:text-5xl font-poppins font-bold"><span className="text-indigo-500">Skills </span> and Projects</h2>
+    <section id="overview" className="max-container text-white py-32  pl-2 md:pl-8 ">
+      <h2 className="text-5xl md:text-5xl font-poppins font-bold"><span className="text-indigo-500">Skills </span> and Projects</h2>
       <p className="mt-2 text-sm color font-montserrat text-slate-400">hover to preview</p>
 
       <div className="pt-12   ">

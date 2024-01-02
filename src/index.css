@@ -69,21 +69,7 @@
   }
 }
  
-@layer utilities{
-  .begginer{
-    color: #dbfafb
-  }
-  .itermediate{
-    color: #87aef7
-  }
-  .advanced{
-    color: rgb(144, 88, 235);
-    
-  }
-  .rare{
-    color: #fff3cc
-  }
-}
+
 @layer components{
 
   .hero-size{

@@ -6,5 +6,12 @@ import easy from './easy.svg'
 import itermediate from './itermediate.svg'
 import advanced from './advanced.svg'
 import epic from './epic.svg'
+import instagram from './instagram.svg'
+import linkedin from './linkedin.svg'
+import github from './github.svg'
+import whatsapp from './whatsapp.svg'
 
-export{home,overview,about,contact,easy,itermediate,advanced,epic}
+export{home,overview,about,contact,easy,itermediate,advanced,epic,instagram,
+  linkedin,
+  github,
+  whatsapp}
