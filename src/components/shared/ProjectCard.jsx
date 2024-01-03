@@ -2,7 +2,7 @@
 
 import { Button } from "../ui/button"
 
-const SkillCard = ({ 
+const ProjectCard = ({ 
   name,
   href,
   img,
@@ -32,4 +32,4 @@ const SkillCard = ({
   )
 }
 
-export default SkillCard
+export default ProjectCard

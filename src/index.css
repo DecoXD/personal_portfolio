@@ -69,6 +69,51 @@
   }
 }
  
+@layer utilities{
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #09090a;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #5c5c7b;
+    border-radius: 50px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #7878a3;
+  }
+
+  .common-section {
+    @apply lg:px-8 sm:pl-[250px] px-4 max-w-[1440px] bg-black;
+  }
+  
+ 
+
+  .delay-1500{
+    animation-delay: 1300ms;
+  }
+
+  .fade-effect-500{
+    @apply opacity-0 animate-fade-in-up delay-500
+  }
+  .fade-effect-700{
+    @apply opacity-0 animate-fade-in-up delay-700
+  }
+  .fade-effect-1000{
+    @apply opacity-0 animate-fade-in-up delay-1000
+  }
+  .fade-effect-1500{
+    @apply opacity-0 animate-fade-in-up delay-1500
+  }
+
+
+}
 
 @layer components{
 

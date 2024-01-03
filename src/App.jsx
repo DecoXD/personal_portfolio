@@ -1,29 +1,35 @@
+
+
 import Header from "./components/header/Header"
+import FadeInSection from "./components/shared/FadeInSection"
 import { About, Footer, Hero, Overview } from "./sections"
 
 
 function App() {
-  
+
 
   return (
-    <main className="relative">
+    <main className="relative bg-black min-h-screen overflow-hidden">
+     
+      <Header />
 
-      <Header/>
-
-      <section  className=" lg:px-8 sm:pl-[250px] px-4 max-w-[1440px] bg-black hero-size flex items-center ">
+     
+      <FadeInSection className={ ` lg:px-8 sm:pl-[250px]  px-4 max-w-[1440px] bg-black hero-size flex items-center`} animate = {'animate-fade-in'} >
         <Hero/>
-      </section>
-
-      <section  className="lg:px-8 sm:pl-[250px]  px-4 max-w-[1440px] bg-black  ">
+      </FadeInSection>
+      
+     
+      <FadeInSection  className="lg:px-8 sm:pl-[250px]  px-4 max-w-[1440px] bg-black"  animate = {'animate-fade-in-right'}>
         <Overview/>
-      </section>
+      </FadeInSection>
+      
 
-      <section  className="lg:px-8 sm:pl-[250px]  px-4 max-w-[1440px] bg-black  ">
+      <FadeInSection  className="lg:px-8 sm:pl-[250px]  px-4 max-w-[1440px] bg-black " animate = {'animate-fade-in'}>
         <About/>
-      </section>
-      <section  className="lg:px-8 sm:pl-[250px] max-sm:pb-[250px] px-4 max-w-[1440px] bg-black  ">
-        <Footer/>
-      </section>
+      </FadeInSection>
+      
+      <Footer/>
+      
 
 
     </main>

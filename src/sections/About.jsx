@@ -13,11 +13,14 @@ const About = () => {
         </div>
 
         <div className="flex flex-col  gap-12 flex-1">
+
           <div className="w-full max-w-[370px]">
           <h3 className="text-5xl md:text-6xl font-poppins font-bold">
             <span className="text-indigo-500">about </span> me</h3>
           </div>
-            <p className="font-montserrat text-sm text-slate-300 max-w-[370px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus et temporibus laudantium, eveniet enim veritatis ipsa placeat sapiente nesciunt, illo atque fugiat obcaecati </p>
+
+            <p className="font-montserrat text-sm  text-slate-300 max-w-[370px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus et temporibus laudantium, eveniet enim veritatis ipsa placeat sapiente nesciunt, illo atque fugiat obcaecati </p>
+            
             <p className="font-montserrat text-sm text-slate-300 max-w-[370px]">
             numquam, amet dicta earum aliquid quia non.
             Molestias, distinctio repellendus? Dolore esse laborum repellat sunt natus doloribus, ut hic corporis nesciunt earum ipsam nihil? Libero impedit nulla illo maxime obcaecati similique eveniet consequatur eaque blanditiis, tempora quae.
@@ -26,7 +29,7 @@ const About = () => {
             <div className="flex gap-8  ">
               {
                 contacts.map((contact) => (
-                  <a key={contact.href} href={contact.href} className=" ">
+                  <a  rel="noreferrer" target="_blank"  key={contact.href} href={contact.href} className=" ">
                     <img src={contact.icon} alt={contact.label} width={36} height={36}/>
                   </a>
                 ))

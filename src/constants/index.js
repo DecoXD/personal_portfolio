@@ -1,5 +1,5 @@
 import { home,overview,about,contact,easy,itermediate, advanced, epic, instagram, linkedin, github, whatsapp } from "../assets/icons";
-import { anker,nike } from "../assets/images";
+import { anker,nike, snapgram } from "../assets/images";
 
 
 
@@ -47,7 +47,7 @@ export const contacts = [
   },
   {
     icon:whatsapp,
-    href:'https://github.com/decoXD',
+    href:'71996076480',
     label:'whatsapp'
   },
   
@@ -55,6 +55,22 @@ export const contacts = [
 
 
 export const projects = [
+  {
+    name:'Social Media',
+    href:'https://ss-social.vercel.app/',
+    img:snapgram,
+    dificulty:'epic',
+    icon:epic,
+    tags:["Typescript",'Appwrite','ReactJs','Tailwind',"Shadcn","Zod",'front-end' ]
+  },
+  {
+    name:'Nike website',
+    href:'https://nike-front.vercel.app/',
+    img:nike,
+    dificulty:'itermediate',
+    icon:itermediate,
+    tags:["Javascript",'ReactJs','Tailwind',"Shadcn","Zod",'front-end' ]
+  },
   {
     name:'Anker Near',
     href:'https://decoxd.github.io/ankernear/',
@@ -64,12 +80,13 @@ export const projects = [
     tags:["Javascript",'ReactJs','Firebase','SwiperJS','full-stack']
 
   },
-  {
-    name:'Nike website',
-    href:'https://nike-front.vercel.app/',
-    img:nike,
-    dificulty:'itermediate',
-    icon:itermediate,
-    tags:["Javascript",'ReactJs','Tailwind',"Shadcn","Zod",'front-end' ]
-  }
+ 
+  
+  
 ] 
+
+
+export const programmingSkills = [
+  'JavaScript','NodeJS','TypeScript','ReactJS','Tailwind',"Styled Components",'Testes',"PHP","Python",
+  "Data Structures","MySQL","PostgreSQL","MongoDB","Firebase","Appwrite","SOLID","Design Patterns","Cloud Computing"
+]
