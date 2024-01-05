@@ -10,8 +10,9 @@ import instagram from './instagram.svg'
 import linkedin from './linkedin.svg'
 import github from './github.svg'
 import whatsapp from './whatsapp.svg'
+import externalLink from './external_link.svg'
 
 export{home,overview,about,contact,easy,itermediate,advanced,epic,instagram,
   linkedin,
   github,
-  whatsapp}
+  whatsapp,externalLink}

@@ -18,9 +18,12 @@ const ProjectCard = ({
 
       <img src={img} alt={name} className="object-cover group-hover:brightness-75 transition w-full h-full "  />
 
-      <div className="absolute z-10 flex gap-1 ">
-        <Button className='group-hover:brightness-150 group-hover:opacity-100 opacity-0 transition'>preview</Button>
-        <Button className='group-hover:brightness-150 group-hover:opacity-100 opacity-0 transition'>visit</Button>
+      <div className="absolute z-10  ">
+        <a href={href}  target="_blank"  >
+          <Button className=' px-8 capitalize group-hover:brightness-150 group-hover:opacity-100 opacity-0 transition'>
+            visit
+          </Button>
+          </a>
       </div>
 
       <div className="absolute items-start py-2.5 w-full  min-h-20 px-2  flex flex-wrap gap-1 bg-[#0f172a] z-10 bottom-0  right-0">

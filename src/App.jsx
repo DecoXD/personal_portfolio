@@ -28,7 +28,7 @@ function App() {
         <About/>
       </FadeInSection>
       
-      <Footer/>
+      <Footer />
       
 
 

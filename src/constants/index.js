@@ -45,11 +45,7 @@ export const contacts = [
     href:'https://github.com/decoXD',
     label:'github'
   },
-  {
-    icon:whatsapp,
-    href:'71996076480',
-    label:'whatsapp'
-  },
+  
   
 ]
 

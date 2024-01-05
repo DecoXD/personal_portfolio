@@ -19,12 +19,13 @@ const About = () => {
             <span className="text-indigo-500">about </span> me</h3>
           </div>
 
-            <p className="font-montserrat text-sm  text-slate-300 max-w-[370px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus et temporibus laudantium, eveniet enim veritatis ipsa placeat sapiente nesciunt, illo atque fugiat obcaecati </p>
+            <p className="font-montserrat text-sm  text-slate-300 max-w-[370px]">I like to work closely with design teams to faithfully translate their projects down to the last pixel. Daily, you will find me using modern technologies, always seeking to deepen my knowledge. </p>
             
-            <p className="font-montserrat text-sm text-slate-300 max-w-[370px]">
-            numquam, amet dicta earum aliquid quia non.
-            Molestias, distinctio repellendus? Dolore esse laborum repellat sunt natus doloribus, ut hic corporis nesciunt earum ipsam nihil? Libero impedit nulla illo maxime obcaecati similique eveniet consequatur eaque blanditiis, tempora quae.
-            </p>
+            <div >
+              <h5 className="font-bold font-poppins pb-4">Technical</h5>
+              <p className="font-montserrat text-sm  text-slate-300 max-w-[370px]">Now you can find me hacking mainly with React, NextJS, NodeJS and in general anything JavaScript / TypeScript, HTML and CSS related.</p>
+            </div>
+           
 
             <div className="flex gap-8  ">
               {
