@@ -1,5 +1,5 @@
-import { home,overview,about,contact,easy,itermediate, advanced, epic, instagram, linkedin, github, whatsapp } from "../assets/icons";
-import { anker,nike, snapgram } from "../assets/images";
+import { home,overview,about,contact,easy,itermediate, advanced, epic, instagram, linkedin, github, } from "../assets/icons";
+import { CVPage1, CVPage2, anker,nike, snapgram } from "../assets/images";
 
 
 
@@ -26,27 +26,6 @@ export const navLinks = [
     href:'#contact',
     icon:contact,
   },
-]
-
-
-export const contacts = [
-  {
-    icon:instagram,
-    href:'https://www.instagram.com/deco.xd/',
-    label:'instagram'
-  },
-  {
-    icon:linkedin,
-    href:'https://www.linkedin.com/in/andre-pinheiro-54a5a1237/',
-    label:'linkedin'
-  },
-  {
-    icon:github,
-    href:'https://github.com/decoXD',
-    label:'github'
-  },
-  
-  
 ]
 
 
@@ -85,4 +64,25 @@ export const projects = [
 export const programmingSkills = [
   'JavaScript','NodeJS','TypeScript','ReactJS','Tailwind',"Styled Components",'Testes',"PHP","Python",
   "Data Structures","MySQL","PostgreSQL","MongoDB","Firebase","Appwrite","SOLID","Design Patterns","Cloud Computing"
+]
+
+
+export const contacts = [
+  {
+    icon:instagram,
+    href:'https://www.instagram.com/deco.xd/',
+    label:'instagram'
+  },
+  {
+    icon:linkedin,
+    href:'https://www.linkedin.com/in/andre-pinheiro-54a5a1237/',
+    label:'linkedin'
+  },
+  {
+    icon:github,
+    href:'https://github.com/decoXD',
+    label:'github'
+  },
+  
+  
 ]

@@ -1,5 +1,7 @@
 import { myImage } from "@/assets/images"
+
 import { Button } from "@/components/ui/button"
+
 
 
 
@@ -24,6 +26,10 @@ const Hero = () => {
       <div className="text-white  flex-1 object-contain overflow-hidden">
         <img src={myImage} alt="cartoon image" className=" lg:m-auto animate-slide-in"  />
       </div>
+
+     
+     
+        
     </section>
   )
 }
