@@ -1,12 +1,18 @@
-import { myImage } from "@/assets/images"
+import {  myImage } from "@/assets/images"
 
 import { Button } from "@/components/ui/button"
 
 
 
 
+
 const Hero = () => {
+
+
+ 
+
   return (
+  
     <section id="home"  className=" max-containers min-h-screen items-center  lg:pt-2 animate-fade-in pb-4 pl-2 flex lg:flex-row flex-col-reverse gap-4 w-full ">
 
       <div className="text-white relative  flex flex-col gap-4 lg:items-center  lg:text-center  flex-1">
@@ -20,17 +26,23 @@ const Hero = () => {
 
         <p className="font-montserrat max-w-[350px] fade-effect-1000 lg:text-center  fade-effect-500 text-slate-400 lg:mt-16">
           I am passionate about building excellent software that improves the lives of those around me. </p>
-        <Button className='p-6 fade-effect-1500 max-w-44 bg-indigo-800 font-montserrat font-bold'>Show CV</Button>
+        
+          <a href="#overview">
+            <Button className='p-6 fade-effect-1500 max-w-44 bg-indigo-800 font-montserrat font-bold'>Overview</Button>
+            </a>
         
       </div>
       <div className="text-white  flex-1 object-contain overflow-hidden">
         <img src={myImage} alt="cartoon image" className=" lg:m-auto animate-slide-in"  />
       </div>
 
-     
+      
      
         
     </section>
+    
+    
+    
   )
 }
 

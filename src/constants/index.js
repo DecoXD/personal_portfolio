@@ -1,5 +1,5 @@
 import { home,overview,about,contact,easy,itermediate, advanced, epic, instagram, linkedin, github, } from "../assets/icons";
-import { CVPage1, CVPage2, anker,nike, snapgram } from "../assets/images";
+import {  anker,nike, snapgram } from "../assets/images";
 
 
 
